@@ -11,4 +11,4 @@
 9.git merge stage //在合并stage 最新的分支到自己开发分支上面去，并解决冲突’没问题了，在切换到satge(测试分支中）
 10.git checkout stage
 11.git merge xxname
-12.git push / git push origin sta
+12.git push / git push origin sta    ！！
