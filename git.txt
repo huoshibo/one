@@ -6,9 +6,10 @@
     2.git commit -m '备注信息’  //把缓存区的代码提交到当前的本地仓库中去
 5.git merge stage //在xxname中执行这个命令，可能会出现相冲突，解决掉
 6.切换到最新分支
-7.git pull/git pull orig in stage //=>这个是最新的代码
+7.git pull/git pull origin stage //=>这个是最新的代码
 8.git checkout xxname //切换到xxname分支
 9.git merge stage //在合并stage 最新的分支到自己开发分支上面去，并解决冲突’没问题了，在切换到satge(测试分支中）
 10.git checkout stage
 11.git merge xxname
-12.git push / git push origin sta    ！！
+12.git push / git push origin stage(测试分支)//=>将本地开发的代码推送到远程仓库中去
+13.在stage分支的测试环境（远程的）都没有问题，就把代码弄到 master，然后试运行--》上线
